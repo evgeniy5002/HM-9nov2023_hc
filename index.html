@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="task-1">
+        <div class="left">
+            <img src="us.png" width="128px" height="128px" alt="">
+            <span class=registration>Регистрация</span>
+        </div>
+
+        <form class="right">
+            <label for="">Имя</label>
+            <input type="text">
+
+            <div class="gender">
+                <span>Пол</span>
+
+                <div>
+                    <input type="radio" name="gender">
+                    <label for="">Мужчина</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="gender">
+                    <label for="">Женщина</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="gender">
+                    <label for="">Боевой вертолет</label>
+                </div>
+            </div>
+
+            <label for="">Email</label>
+            <input type="text" name="" id="" pattern="^[a-zA-Z]{4,10}@[a-zA-Z]{2,7}\.[a-zA-Z]{2,4}$">
+
+            <label for="">Страна</label>
+            <select id="choices" name="choices">
+                <option value="вариант1">Рохан</option>
+                <option value="вариант2">Изенгард</option>
+                <option value="вариант3">Мордор</option>
+            </select>
+
+            <button>Отправить</button>
+        </form>
+    </div>
+
+    <div class="task-2">
+        <form action="">
+            <div>
+                <span>Step 1: Your details</span>
+                <div class="field">
+                    <label for="">Name</label>
+                    <input type="text" placeholder="First and last name" pattern="^[a-zA-Z]{2,20} [a-zA-Z]{2,20}$">
+                </div>
+
+                <div class="field">
+                    <label for="">Email</label>
+                    <input type="text" placeholder="axample@domain.com"
+                        pattern="^[a-zA-Z]{4,10}@[a-zA-Z]{2,7}\.[a-zA-Z]{2,4}$">
+                </div>
+
+                <div class="field">
+                    <label for="">Phone</label>
+                    <input type="text" placeholder="Eg. +447500000000" pattern="^\+4475\d{8}$">
+                </div>
+            </div>
+
+            <div>
+                <span>Step 2: Delivery address</span>
+                <div class="field">
+                    <label for="">address</label>
+                    <input type="text">
+                </div>
+
+                <div class="field">
+                    <label for="">Post code</label>
+                    <input type="text">
+                </div>
+
+                <div class="field">
+                    <label for="">Country</label>
+                    <input type="text">
+                </div>
+            </div>
+
+            <div>
+                <span>Step 3: Card details</span>
+
+                <div class="field">
+                    <input type="radio" id="visa" name="cardType">
+                    <label for="visa">VISA</label>
+
+                    <input type="radio" id="amex" name="cardType">
+                    <label for="amex">AmEx</label>
+
+                    <input type="radio" id="Mastercard" name="cardType">
+                    <label for="card">Mastercard</label>
+                </div>
+
+                <div class="field">
+                    <label for="">Card number</label>
+                    <input type="text">
+                </div>
+
+                <div class="field">
+                    <label for="">Securiry</label>
+                    <input type="text">
+                </div>
+
+                <div class="field">
+                    <label for="">name on card</label>
+                    <input type="text" placeholder="Exact name as on card">
+                </div>
+            </div>
+
+            <button>BYE IT!!</button>
+        </form>
+    </div>
+</body>
+
+</html>
